@@ -18,23 +18,23 @@ This project transforms a tightly coupled implementation into a fully modular an
 
 ## 📂 Project Structure
 
-invoice_processor.rb
-tax_calculator.rb
-payments/
-  payment_interface.rb
-  visa_payment.rb
-  cash_payment.rb
-  paypal_payment.rb
-services/
-  logging/
-    logger_interface.rb
-    file_logger.rb
-  notifiers/
-    notifier_interface.rb
-    email_notifier.rb
-SOLID_violations.md
-refactoring_explanation.md
-README.md
+- invoice_processor.rb
+- tax_calculator.rb
+- payments
+  - payment_interface.rb
+  - visa_payment.rb
+  - cash_payment.rb
+  - paypal_payment.rb
+- services
+  - logging
+    - logger_interface.rb
+    - file_logger.rb
+  - notifiers
+    - notifier_interface.rb
+    - email_notifier.rb
+- SOLID_violations.md
+- refactoring_explanation.md
+- README.md
 
 ---
 
